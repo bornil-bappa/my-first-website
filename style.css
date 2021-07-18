@@ -1,0 +1,228 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 85%;
+    margin: 0 auto;
+}
+.clearfixed::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+/* header section */
+.header-section{
+    overflow: hidden;
+    padding-bottom: 100px;
+}
+
+.main-menu{
+    text-align: right;
+    margin-top: 10px;
+}
+.main-menu ul{
+    list-style: none;
+}
+.main-menu ul li{
+    display: inline-block;
+}
+.main-menu ul li a {
+    display: block;
+    text-decoration: none;
+    text-transform: capitalize;
+    margin: 15px 20px;
+    color: #3c3c3c;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: 'roboto', san-serif;
+}
+.main-menu ul li a:hover{
+    text-decoration: underline;
+    color: #5351D6;
+}
+
+.top-welcome .welcome-text{
+    width: 50%;
+    float: left;
+    margin-top: 80px;
+}
+.top-welcome .image-area{
+    width: 50%;
+    overflow: hidden;
+}
+.top-welcome img,
+.bottom-welcome img{
+    width: 465px;
+    height: 613px;
+}
+
+.welcome-text h1 {
+    font-family: 'Bebas Neue', cursive;
+    text-transform: uppercase;
+    font-size: 65px;
+    color: #363958;
+    line-height: 65px;
+}
+.welcome-text span{
+    color: #FF8367
+}
+.welcome-text p {
+    font-size: 18px;
+    font-family: 'Roboto', san-serif;
+    line-height: 24px;
+    margin-bottom: 25px;
+}
+button {
+    background-color: #FF8063;
+    padding: 23px 55px;
+    border: 0;
+    color: #fff;
+    font-size: 18px;
+    text-transform: capitalize;
+    border-radius: 10px;
+}
+.bottom-welcome{
+    overflow: hidden;
+}
+.bottom-welcome .bottom-images{
+    width: 50%;
+    float: left;
+}
+.bottom-welcome .bottom-text{
+    width: 50%;
+    overflow: hidden;
+    margin-top: 100px;
+}
+
+.bottom-text h2{
+    font-family: 'Bebas Neue', cursive;
+    text-transform: uppercase;
+    font-size: 65px;
+    color: #363958;
+    line-height: 65px;
+    margin-bottom: 40px;
+}
+.bottom-text p{
+    font-size: 18px;
+    font-family: 'Roboto', san-serif;
+    line-height: 24px;
+    margin-bottom: 25px;
+}
+
+/* Work section */
+.work-section{
+    overflow: hidden;
+    background-color: #F8F9FC;
+    padding: 100px 0;
+}
+
+.work-section .card-design{
+    overflow: hidden;
+    width: 90%;
+    margin: auto;
+}
+.card img{
+    width: 100%;
+    height: auto;
+}
+.card{
+    width: 31.33%;
+    float: left;
+    margin-right: 3%;
+    background-color: #ffffff;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 8px 5px #f1f1f1;
+}
+.card:last-child{
+    margin-right: 0;
+}
+.card-design h1{
+    font-family: 'Bebas Neue', cursive;
+    text-transform: uppercase;
+    font-size: 40px;
+    color: #363958;
+    line-height: 65px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.card-design span{
+    color: #FF8367;
+}
+.card h2{
+    text-transform: capitalize;
+    font-size: 22px;
+    color: #363958;
+    margin: 10px 0;
+}
+.card p{
+    color: #afadad;
+    font-size: 18px;
+}
+/* footer section */
+
+.footer-section{
+    overflow: hidden;
+    padding: 100px;
+    text-align: center;
+}
+.top-background{
+    background: url(images/Group_33094_1.png) no-repeat;
+    background-size: 100%;
+    background-position: center;
+    width: 80%;
+    min-height: 300px;
+    margin: auto;
+    position: relative;
+}
+.top-background h2 {
+    text-transform: uppercase;
+    font-size: 35px;
+    color: #fff;
+    position: absolute;
+    top: 40%;
+    left: 7%;
+}
+.top-background a {
+    display: inline-block;
+    position: absolute;
+    top: 40%;
+    left: 70%;
+    color: #fff;
+    background: #F76760;
+    border: 0;
+    padding: 16px 28px;
+    font-size: 20px;
+    text-transform: capitalize;
+    border-radius: 10px;
+    text-decoration: navajowhite;
+}
+.bottom-background h4{
+    font-size: 22px;
+    text-transform: uppercase;
+    color: #696871;
+}
+.bottom-background h2{
+    font-size: 35px;
+    text-transform: uppercase;
+    color: #363958;
+    font-family: 'Roboto', san-serif;
+    font-weight: bold;
+    margin-top: 20px;
+}
+.social-icon img{
+    height: 40px;
+    width: 40px;
+}
+.social-icon{
+    margin-top: 20px;
+}
+.social-icon ul{
+    list-style: none;
+}
+.social-icon ul li{
+    display: inline-block;
+    margin: 0 10px;
+}
